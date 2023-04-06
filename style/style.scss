@@ -1,61 +1,72 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: black;
 }
-.container{
+.container {
     margin: 0 auto;
-      margin: 10px;
-      
-     header{
-        a{
+    margin: 10px;
+    header {
+        a {
             text-decoration: none;
-            h1{
+            h1 {
                 color: purple;
             }
         }
-        button{
+        button {
             margin-left: 1200px;
             margin-top: -85px;
         }
-        ul{
+        ul {
             display: flex;
             gap: 25px;
             margin-left: 490px;
             margin-top: -35px;
-            li{
+            li {
                 list-style: none;
-                a{
+                a {
                     text-decoration: none;
-                    color:white;
+                    color: white;
                     transition: all 0.5s linear;
-                    &:hover{
+                    &:hover {
                         color: crimson;
                         font-size: 17px;
                     }
                 }
             }
         }
-     }
-     main{
+    }
+    main {
         margin-top: 90px;
         color: white;
-        img{
+        img {
             width: 45%;
             border-radius: 20px;
             display: inline;
         }
-        p{
+        p {
             margin-left: 650px;
             transform: translateY(-330px);
             font-size: 20px;
         }
-        .second{
+        .second {
             font-size: 34px;
-            
         }
-     }
+        .btn {
+            margin-left: 650px;
+            margin-top: -500px;
+            a {
+                text-decoration: none;
+                color: gold;
+                transition: 0.5s;
+                &:hover {
+                    color: purple;
+                }
+            }
+        }
+    }
 }

@@ -56,4 +56,16 @@ body {
 }
 .container main .second {
   font-size: 34px;
+}
+.container main .btn {
+  margin-left: 650px;
+  margin-top: -500px;
+}
+.container main .btn a {
+  text-decoration: none;
+  color: gold;
+  transition: 0.5s;
+}
+.container main .btn a:hover {
+  color: purple;
 }/*# sourceMappingURL=style.css.map */
